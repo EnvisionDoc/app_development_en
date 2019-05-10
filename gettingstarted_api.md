@@ -4,7 +4,7 @@ This topic aims to help you get started with calling EnOS API to interact with y
 
 The sections below describe the major steps that you can follow to call EnOS REST APIs:
 
-1. Register an application in the EnOS Console
+1. Register an application on the EnOS Console
 
 2. Access the API documentation
 
@@ -17,12 +17,12 @@ The sections below describe the major steps that you can follow to call EnOS RES
 Invoking APIs requires three types of parameters:
 
 - API: Name of the API that you are about to invoke and the request paramters as required by the API.
-- Application identity: As the identity when you invoke an API, `accessKey` and `secretKey` are used to verify your identity.
+- Application identity (service account): The service account of the registered application (including the `accessKey` and `secretKey`), which is used to verify your identity when calling APIs.
 - Signature: Authentication method for API requests. It is generated based on the application key, application secret, and request parameters with an algorithm.
 
 ## Before You Start
 
-Ensure that you have resources on EnOS to which you are authorized to access. The resources can be devices, data, events, user accounts, and so on. The related authorization can be Read, Control, Write, FullAccess, and so on. Therefore, before you start using EnOS APIs, you typically have finished connecting your devices and data into EnOS, and have a user account that has proper access policies assigned through EnOS IAM function. For more information about API access control, see [API Access Authorization](api_authorization_list).
+Ensure that you have resources on EnOS to which you are authorized to access. The resources can be devices, data, events, user accounts, and so on. The related authorization can be Read, Control, Write, FullAccess, and so on. Therefore, before you start using EnOS APIs, you typically have finished connecting your devices and data into EnOS, and have a service account that has proper access policies assigned through EnOS IAM function (contact the OU administrator to assign authority for your service account). For more information about API access control, see [API Access Authorization](api_authorization_list).
 
 ## Step 1: Registering an Application
 
