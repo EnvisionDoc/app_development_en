@@ -14,13 +14,13 @@ EnOS REST API URL takes the following format:
 {service-url} / {api-path} ? {query-string}
 ```
 where,
-- `service-url`: https://enos-api-cn1.envisioniot.com/
+- `service-url`: https://xxxx.envisioniot.com/enosapi
 - `api-path`：The URL of each EnOS API (refer to the API documentation)
 - `query-string`: Request parameters to be included in the request URL. The string comprises of common request parameters and business-specific request parameters.
 
 In the following sample request URL, the `api-path` segment is `/connectService/products/{productKey}` and the `query-string` segment is `accessKey={}&requestTimestamp={}&sign={}&orgId={}`.
 ```
-GET https://enos-api-cn1.envisioniot.com/connectService/products/{productKey}?accessKey={}&requestTimestamp={}&sign={}&orgId={}
+GET https://xxxx.envisioniot.com/enosapi/connectService/products/{productKey}?accessKey={}&requestTimestamp={}&sign={}&orgId={}
 ```
 
 ### Common Request Parameters
