@@ -31,7 +31,7 @@ The **EnOS Service SDKs** support application development through calling EnOS R
 
 ### EnOS Service SDK for Java
 
-- [Include dependency in Maven project](https://mvnrepository.com/artifact/com.envisioniot/enos-api/2.3.5)
+- [Include dependency in Maven project](https://mvnrepository.com/artifact/com.envisioniot/enos-api/2.3.6)
 - [Obtain source code from GitHub](https://github.com/EnvisionIot/enos-api-sdk-java)
 
 - View [API Reference](https://www.envisioniot.com/docs/app-development/en/latest/gettingstarted_api#step-2-accessing-api-documentation) from the EnOS Console

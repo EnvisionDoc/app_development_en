@@ -34,7 +34,7 @@ You can obtain the EnOS SDKs through the following methods:
     <dependency>
        <groupId>com.envisioniot</groupId>
        <artifactId>enos-api</artifactId>
-       <version>2.3.5</version>
+       <version>2.3.6</version>
        <!--You might need to change the version number as you need.-->
     </dependency>
    ```
