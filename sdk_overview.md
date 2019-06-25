@@ -1,6 +1,6 @@
 # EnOS SDKs
 
-EnOS provides official SDKs to support users and developers on device connection, device registration, data ingestion, application development, and application registration. This topic provides and overview of EnOS SDKs.
+EnOS provides official SDKs to support users and developers on device connection, device registration, data ingestion, data subscription, application development, and application registration. This topic provides and overview of EnOS SDKs.
 
 
 
@@ -25,28 +25,24 @@ The **EnOS Device SDKs** provide various device connection and management interf
 
 
 
-## EnOS Service SDKs
+## EnOS API Core SDKs
 
-The **EnOS Service SDKs** support application development through calling EnOS REST API services (connect service, model service, asset service, data service, and file service).
+The **EnOS API Core SDKs** provide the basic environment for calling EnOS APIs, which support both synchronous and asynchronous API requests.
 
-### EnOS Service SDK for Java
+### Java Core SDK (Poseidon)
 
-- [Include dependency in Maven project](https://mvnrepository.com/artifact/com.envisioniot/enos-api/2.3.6)
-- [Obtain source code from GitHub](https://github.com/EnvisionIot/enos-api-sdk-java)
+- [Include dependency in Maven project](https://mvnrepository.com/artifact/com.envisioniot/apim-poseidon/0.1.7)
+- View [Getting Started with EnOS API](/docs/api/en/latest/gettingstarted.html) for more information
 
-- View [API Reference](https://www.envisioniot.com/docs/app-development/en/latest/gettingstarted_api#step-2-accessing-api-documentation) from the EnOS Console
-
-### EnOS Service SDK for Python (Preview Edition)
+### Python Core SDK (Athena)
 
 - Install from PIP
 
   ```
-  pip install enos-api-sdk-python
+  pip install aphrodite
   ```
 
-- [Obtain source code from GitHub](https://github.com/EnvisionIot/enos-api-sdk-python)
-
-- View [API Reference](https://www.envisioniot.com/docs/app-development/en/latest/gettingstarted_api#step-2-accessing-api-documentation) from the EnOS Console
+- View [Getting Started with EnOS API](/docs/api/en/latest/gettingstarted.html) for more information
 
 
 
@@ -57,6 +53,12 @@ The **EnOS IoT SDK for C** supports the following functions APIs for X.509 certi
 - [Obtain source code from GitHub](https://github.com/EnvisionIot/enos-iot-sdk-c)
 
 
+
+## EnOS Data Subscription SDK
+
+EnOS Data Subscribe SDK supports consuming the subscribed asset real-time data and alert data.
+
+- [Include dependency in Maven project](https://mvnrepository.com/artifact/com.envisioniot/enos-subscribe/2.2.0)
 
 ## Related Links
 
