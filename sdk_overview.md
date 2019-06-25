@@ -32,19 +32,27 @@ The **EnOS API Core SDKs** provide the basic environment for calling EnOS APIs, 
 ### Java Core SDK (Poseidon)
 
 - [Include dependency in Maven project](https://mvnrepository.com/artifact/com.envisioniot/apim-poseidon/0.1.7)
-- View [Getting Started with EnOS API](/docs/api/en/latest/gettingstarted.html) for more information
+
+<!--
+
+View [Getting Started with EnOS API](/docs/api/en/latest/gettingstarted.html) for more information
+
+-->
 
 ### Python Core SDK (Athena)
 
-- Install from PIP
+- Install from PIP:
 
   ```
   pip install aphrodite
   ```
 
-- View [Getting Started with EnOS API](/docs/api/en/latest/gettingstarted.html) for more information
 
+<!--
 
+View [Getting Started with EnOS API](/docs/api/en/latest/gettingstarted.html) for more information
+
+-->
 
 ## EnOS IoT SDK for C
 
