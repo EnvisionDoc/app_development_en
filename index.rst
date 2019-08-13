@@ -17,5 +17,4 @@
    :maxdepth: 1
    :caption: EnOS SDK
 
-   sdk_overview      
-   gettingstarted_sdk
+   sdk_overview
