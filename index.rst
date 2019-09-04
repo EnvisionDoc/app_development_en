@@ -18,3 +18,9 @@
    :caption: EnOS SDK
 
    sdk_overview
+
+.. toctree::
+   :maxdepth: 1
+   :caption: EnOS Graph Editor
+
+   hmi/index
