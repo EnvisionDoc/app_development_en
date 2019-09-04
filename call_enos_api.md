@@ -53,7 +53,7 @@ The following table lists the common request parameters required by each EnOS AP
    * - sign
      - String
      - Yes
-     - The API request signature that is generated based on the accessKey, secretKey, timestamp, and API request parameters. Signature can prevent API requests from malicious tempering. The API gateway will verify the signature and reject a request if its signature is invalid. Currently, SHA-256 algorithm is used for generating the signature. For more information, see [Generating Signature for API Requests](https://www.envisioniot.com/docs/app-development/en/latest/generating_signature.html).
+     - The API request signature that is generated based on the accessKey, secretKey, timestamp, and API request parameters. Signature can prevent API requests from malicious tempering. The API gateway will verify the signature and reject a request if its signature is invalid. Currently, SHA-256 algorithm is used for generating the signature. For more information, see [Generating Signature for API Requests](/docs/app-development/en/latest/generating_signature.html).
 
 ### Business Parameters
 
