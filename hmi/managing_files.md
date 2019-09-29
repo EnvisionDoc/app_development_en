@@ -1,6 +1,6 @@
 # Managing Files
 
-File management is about operations in the **File** menu in toolbar, mainly including read and write opertions with .PIC files and .SVG files.
+The files managed in the EnOS Graph Editor are mainly `.PIC` files and `.SVG` files.
 
 The operations in the File menu are as follows:
 

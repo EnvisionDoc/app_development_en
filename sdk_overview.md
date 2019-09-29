@@ -1,8 +1,41 @@
-# EnOS SDKs
+# EnOS APIs and SDKs
 
-EnOS provides official SDKs to support users and developers on efficient device connection, device registration, data ingestion, data subscription, application development, and application registration.
+# EnOS APIs
 
-For detailed description, latest version, and download links of EnOS SDKs, go to **EnOS Console > SDK Center**.
+EnOS provides various APIs that expose a lot of EnOS service capabilities and access to different types of data.
+
+- Connection Service: Provide device connectivity and device management on EnOS, including product and device creation and management.
+
+- Model Service: Search and get the details of the models in an organization.
+
+- Asset Service: Create, manage, and update the assets in an organization.
+
+- Alert Service: Search and manage asset alerts.
+
+- Asset Tree Service: Create, manage, update, and search assets trees in an organization.
+
+- TSDB Data Service: Access the stored asset data.
+
+- TSDB Policy Service: Access TSDB storage configuration information.
+
+- IAM Service Overview: Manage user account lifecycle, authenticate user identities, and control the access rights to the resources in EnOS.
+
+- Common File Service: Manage files on EnOS.
+
+To get started with EnOS APIs, go to **EnOS Console > EnOS API**.
+
+![EnOS APIs](media/enos_api.png)
+
+## EnOS SDKs
+
+EnOS provides official SDKs for application developers to perform various tasks such as connecting devices, ingesting data, accessing data and services on EnOS.
+
+EnOS SDKs can be accessed from the **SDK Center** in the EnOS Console.
+
+![SDK Center](media/sdk_center.png)
+
+
+
 
 
 
@@ -39,7 +72,7 @@ The **EnOS API Core SDKs** provide the basic environment for calling EnOS APIs, 
 
 
 
-View [Getting Started with EnOS API](/docs/api/en/latest/gettingstarted.html) for more information
+View [Getting Started with EnOS API](/docs/api/en/2.0.9/gettingstarted.html) for more information
 
 
 
@@ -54,7 +87,7 @@ View [Getting Started with EnOS API](/docs/api/en/latest/gettingstarted.html) fo
 
 
 
-View [Getting Started with EnOS API](/docs/api/en/latest/gettingstarted.html) for more information
+View [Getting Started with EnOS API](/docs/api/en/2.0.9/gettingstarted.html) for more information
 
 
 

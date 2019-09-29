@@ -1,61 +1,62 @@
-# About Application Development
+# About Application Enablement
 
-EnOS Application Development Service enables you to register applications on EnOS Console, manage applications (purchased and self-developed), assign application resources to users, and use EnOS SDKs to develop applications offline.
+The Application Enablement offering provides toolkits, libraries, and services that help your leverage the IoT data and common data services and rapidly build, deploy, and scale applications. By offering a loosely coupled micro-service architecture and encapsulating the underlying IT complexity, lowers barrier of application development and accelerates time to value.
 
-## Key Personas
+## Application Management
 
-EnOS Application Development Service primarily serves the following roles:
+Application development on EnOS starts from registering a *service account* for the application, the application can then access EnOS services and data by presenting its service account. 
 
-**System administrator**
+[Learn More >>](app_management/managing_apps)
 
-System administrator, who manages organizations, users, and resources on the EnOS platform.
+## Service Hosting Center
 
-**Organization administrator**
+Based on the micro-service architecture, the Service Hosting Center offers the
+end-to-end services that simplifies development, testing, operation, and
+maintenance of applications:
 
-Organization administrator, who manages users and resources of an organization.
+- **DevOps**: allows you to manage your application lifecycle on a project basis. Supports role-based access control to facilitate multiple roles to collaborate on a project. Provides powerful git hosting and pipeline orchestration to streamline build, test, and deployment of application.
 
-**Application developer**
+    - Supports various programing languages such as Java, Node.js, Python, Go
 
-Application developer, who develops an application through calling EnOS APIs.
+    - Supports orchestrating pipelines: code scan, build, deployment, Jenkins
 
-**Application provider**
+- **Container management**: one-stop container operation and management that enables applications to easily scale on needs.
 
-Application provider, who provisions an application on EnOS to be consumed by other parties. An application developer can be an application provider.
+- **Cluster management**: centralized cluster resource quota management, network policy configuration, storage resource management and other services for application development and deployment.
 
-**Application user/consumer**
+[Learn More >>](shc/index)
 
-Application user, who consumes the application that is provided by the application provider.
+## API Management
+
+Lightweight API lifecycle management service that enables applications to expose service capabilities as APIs. The services allows API developers to quickly
+develop and host APIs and API consumers to quickly invoke APIs.
+
+[Learn More >>](apim/index)
+
+## Common Data Service
+
+Common Data Service complements dimensions of data such as weather, traffic, and market (for example, electricity pricing) data for informed insights and
+decisions. For example, an application might predict power generation through algorithms that use device data and weather data.
+
+## HMI Graph Tool
+
+HMI Graph Tool enables you to quickly build visualized monitoring applications.
+The tool has built in rich visual elements that simulates equipment pieces of
+various industry domains and charts that help you visualize data dynamics. The
+tool also allows you to accumulate your own graphic elements.
+
+[Learn More >>](hmi/index)
+
+## Application Portal
+
+Provides unified experience with applications built from EnOS, enables central management of application users and access rights.
+
+[Learn More >>](app_portal/index)
+
+## Mobile Application Framework
+
+Helps develop hybrid mobile applications based on EnOS. The framework allows developers to develop with most of the mainstream front-end technologies such as JavaScript, CSS, and HTML. 
+
+[Learn More >>](envhybrid/index)
 
 
-
-## Key Capabilities
-
-The Application Development Service of EnOS Console provides the following benefits:
-
-**Ready-to-use**
-
-An application can access the EnOS™ APIs immediately after the application is registered on EnOS™.
-
-**Secure and reliable**
-
-EnOS™ isolates the data of different clients and ensures that different clients can only access their own asset data when using the same application.
-
-**Data integration**
-
-EnOS™ System integrates the ingested asset data, applications, and EnOS APIs, so that all asset data can be accessed and modified through APIs after authorized with applications.
-
-**Cross-organization application authorization**
-
-When you need to use an application developed by a third party organization, you can authorize the application to access the asset data of your organization.
-
-
-
-## Related Services
-
-### Device Management Service
-
-EnOS Device Management helps you quickly and securely connect physical devices to EnOS Cloud and start to transfer data, manage device life cycle, and map the physical asset structure to the digital world. [Learn more >>](/docs/device-connection/en/latest/device_management_overview.html)
-
-### Data Asset Management
-
-EnOS™ Data Asset Management helps you properly manage the data that is ingested from the devices that are connected with EnOS Cloud. EnOS Data Asset Management enables you to subscribe to real-time and alert data, customize data storage policies, and retrieve stored data with APIs. [Learn more >>](/docs/data-asset/en/latest/data_asset_overview.html)

@@ -1,6 +1,6 @@
-# Using Base Shape Tools
+# Using Base Shape Elements
 
-Base shape tools are the basic elements for creating the graph, including text, line, rectangle, polyline, pie, image, etc. This topic introduces how to insert base shape tools in the graph.
+Base shape tools are the basic elements for creating the graph, including text, line, rectangle, polyline, pie, image, etc. This article instructs how to insert base shape tools in the graph.
 
 ## Procedure
 
