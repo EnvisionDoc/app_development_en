@@ -4,7 +4,7 @@ After completing the configuration of the graph page, you can export the graph a
 
 ## Prerequisites
 
-Before deploying the graph to the Web server, ensure that the service account (SA) of EnOS Graph Editor application has been authorized to access asset data. Otherwise, the bound dynamic data cannot be displayed on the preview page. For more information about authorizing the SA account, see [Managing Service Accounts](/docs/iam/en/latest/howto/service_account/managing_service_account.html).
+Before deploying the graph to the Web server, ensure that the service account (SA) of the application built with EnOS Graph Editor has been authorized to access asset data. Otherwise, the bound dynamic data cannot be displayed on the preview page. For more information about authorizing the SA account, see [Managing Service Accounts](/docs/iam/en/2.0.9/howto/service_account/managing_service_account.html).
 
 ## Procedure
 

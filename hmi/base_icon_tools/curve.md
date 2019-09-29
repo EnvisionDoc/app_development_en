@@ -2,7 +2,7 @@
 
 The curve element is usually used to display and monitor continuously changing asset data and the data changing trend.
 
-.. note:: Before using the curve element to monitor asset data, you must configure storage policy for the asset measuring point on the EnOS Console. For more information, see `Configuring TSDB Storage  </docs/data-asset/en/latest/configuring_tsdb_storage.html>`__ .
+.. note:: Before using the curve element to monitor asset data, you must configure storage policy for the asset measuring point on the EnOS Console. For more information, see `Configuring TSDB Storage  </docs/data-asset/en/2.0.9/configuring_tsdb_storage.html>`__ .
 
 Take the following steps to insert the curve element in the graph area.
 

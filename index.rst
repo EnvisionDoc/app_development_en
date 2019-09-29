@@ -1,4 +1,4 @@
-﻿Application development
+﻿Application Enablement
 ===========================
 
 .. toctree::
@@ -9,18 +9,18 @@
 
 .. toctree::
    :maxdepth: 1
-   :caption: Application Management
+   :caption: Getting Started
 
-   managing_apps
-
-.. toctree::
-   :maxdepth: 1
-   :caption: EnOS SDK
-
+   app_management/managing_apps
    sdk_overview
 
 .. toctree::
    :maxdepth: 1
-   :caption: EnOS Graph Editor
+   :caption: Services & Tools
 
+   shc/index
+   apim/index
+   app_portal/index
    hmi/index
+   envhybrid/index
+   

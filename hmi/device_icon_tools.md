@@ -1,4 +1,4 @@
-# Using Device Icon Tools
+# Using Device Icon Elements
 
 To enable engineering professionals to configure device monitoring pages, EnOS Graph Editor provides a set of device icon elements, including the commonly used devices in the electric energy industry.
 
