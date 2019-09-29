@@ -22,7 +22,7 @@ The project administrator for application development and deployment can create 
 
    .. image:: ../../media/add_member.png
 
-7. Configure detailed container deployment information for the application. Click **Skip** to skip the configuration if you want to configure the container information after the application is created. Application developers can complete the configurations later. For details, see [Managing Container Configurations](/docs/apaas/en/2.0.9/howto/container/index.html).
+7. Configure detailed container deployment information for the application. Click **Skip** to skip the configuration if you want to configure the container information after the application is created. Application developers can complete the configurations later. For details, see [Managing Container Configurations](../container/index.html).
 
 Once the application is created, you can view its basic information by clicking on the application name in the application list.
 
