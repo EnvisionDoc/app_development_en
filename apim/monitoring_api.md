@@ -4,7 +4,7 @@ For the **Online** and **Public** APIs, users can view their basic information a
 
 
 ## Prerequisites
-- You own an EnOS account and the permissions to define APIs. See [Policies, Roles and Permissions](/docs/iam/en/2.0.9/access_policy).
+- You own an EnOS account and the permissions to define APIs. See [Policies, Roles and Permissions](/docs/enos/en/2.0.9/iam/concept/access_policy.html).
 - You have complete the tasks [Creating APIs](creating_api) and [Deploying APIs](deploying_api).
 
 ## API Health

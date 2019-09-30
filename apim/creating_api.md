@@ -8,7 +8,7 @@ This article describes how to create an API in the API Management.
 
 ## Before You Start
 
-- You own an EnOS account and the permissions to define APIs. See [Policies, Roles and Permissions](/docs/iam/en/2.0.9/access_policy).
+- You own an EnOS account and the permissions to define APIs. See [Policies, Roles and Permissions](/docs/enos/en/2.0.9/iam/concept/access_policy.html).
 
 
 

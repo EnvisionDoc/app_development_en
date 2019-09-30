@@ -43,7 +43,7 @@ Other EnOS services related to EnOS APIM include:
 
 - IAM
 
-  Provide identity management, authentication, authorization, auditing and other services for APIM. For details about IAM, see [IAM](/docs/iam/en/2.0.9/iam_overview).
+  Provide identity management, authentication, authorization, auditing and other services for APIM. For details about IAM, see [IAM](/docs/enos/en/2.0.9/iam/iam_overview).
 
 
 
