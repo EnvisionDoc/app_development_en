@@ -9,7 +9,7 @@ This article describes how to do API batch creating with JSON file in APIM.
 
 ## Prerequisites
 
-- You own an EnOS account and the permissions to define APIs. See [Policies, Roles and Permissions](/docs/iam/en/2.0.9/access_policy).
+- You own an EnOS account and the permissions to define APIs. See [Policies, Roles and Permissions](/docs/enos/en/latest/iam/concept/access_policy).
 - You have already exported and saved APIs configuration file from APIM. Refer to [Exporting APIs](exporting_api).
 
 

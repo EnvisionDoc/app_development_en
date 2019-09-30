@@ -72,4 +72,4 @@ Application developers include the roles responsible for application development
 
 ### Application Development
 
-Develop applications using EnOS SDKs and get stored data through the EnOS APIs. [Learn more >>](/docs/app-development/en/2.0.9/app_dev_overview.html)
+Develop applications using EnOS SDKs and get stored data through the EnOS APIs. [Learn more >>](/docs/app-development/en/latest/app_dev_overview.html)

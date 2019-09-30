@@ -31,4 +31,4 @@ Application Developer, who integrates EnOS Graph Editor with applications for ac
 
 ### Device Management
 
-EnOS Device Management helps you quickly and securely connect physical devices to EnOS Cloud and start to transfer data, manage device life cycle, and map the physical asset structure to the digital world. [Learn more >>](/docs/device-connection/en/2.0.9/device_management_overview.html)
+EnOS Device Management helps you quickly and securely connect physical devices to EnOS Cloud and start to transfer data, manage device life cycle, and map the physical asset structure to the digital world. [Learn more >>](/docs/device-connection/en/latest/device_management_overview.html)

@@ -72,7 +72,7 @@ The **EnOS API Core SDKs** provide the basic environment for calling EnOS APIs, 
 
 
 
-View [Getting Started with EnOS API](/docs/api/en/2.0.9/gettingstarted.html) for more information
+View [Getting Started with EnOS API](/docs/api/en/latest/gettingstarted.html) for more information
 
 
 
@@ -87,7 +87,7 @@ View [Getting Started with EnOS API](/docs/api/en/2.0.9/gettingstarted.html) for
 
 
 
-View [Getting Started with EnOS API](/docs/api/en/2.0.9/gettingstarted.html) for more information
+View [Getting Started with EnOS API](/docs/api/en/latest/gettingstarted.html) for more information
 
 
 
