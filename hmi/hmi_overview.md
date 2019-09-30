@@ -19,6 +19,16 @@ EnOS Graph Editor has the following major features:
 
     Integrated with EnOS Identity and Access Management service, EnOS Graph Editor supports asset permission isolation. Users can access data of the assets that they have permission only.
 
+The following examples show asset and site monitoring pages that are configured and deployed using EnOS Graph Editor:
+
+**Example 1**
+
+.. image:: media/example_1.png
+
+**Example 2**
+
+.. image:: media/example_2.png
+
 ## Target Personas
 
 EnOS Graph Editor primarily serves the following roles:
