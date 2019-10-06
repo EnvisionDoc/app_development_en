@@ -45,12 +45,12 @@ EnOS Application Portal 主要服务于以下角色：
 
 ### 设备管理
 
-EnOS设备管理服务帮助你快速将物理设备安全连接至EnOS云端并开始数据传输，管理设备周期，及将物理世界的资产结构映射至数字世界。[了解更多 >>](/docs/device-connection/zh_CN/latest/device_management_overview.html)
+EnOS设备管理服务帮助你快速将物理设备安全连接至EnOS云端并开始数据传输，管理设备周期，及将物理世界的资产结构映射至数字世界。[了解更多 >>](/docs/device-connection/zh_CN/2.0.9/device_management_overview.html)
 
 ### 数据资产管理
 
-EnOS数据资产管理服务提供流数据处理、时序数据管理、数据质量、数据订阅等服务。[了解更多 >>](/docs/data-asset/zh_CN/latest/data_asset_overview)
+EnOS数据资产管理服务提供流数据处理、时序数据管理、数据质量、数据订阅等服务。[了解更多 >>](/docs/data-asset/zh_CN/2.0.9/data_asset_overview)
 
 ### 应用使能
 
-使用Enos SDK开发应用程序，并通过EnOS API访问EnOS服务和资源。[了解更多 >>](/docs/app-development/zh_CN/latest/app_dev_overview.html)
+使用Enos SDK开发应用程序，并通过EnOS API访问EnOS服务和资源。[了解更多 >>](/docs/app-development/zh_CN/2.0.9/app_dev_overview.html)

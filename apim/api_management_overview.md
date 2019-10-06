@@ -39,11 +39,11 @@ Other EnOS services related to EnOS APIM include:
 
 - Application registration
 
-  API consumers register applications to get the services needed for service account so as to access any necessary APIs. For details about application registration, see [Application Registration](/docs/app-development/en/latest/app_dev_overview).
+  API consumers register applications to get the services needed for service account so as to access any necessary APIs. For details about application registration, see [Application Registration](/docs/app-development/en/2.0.9/app_dev_overview).
 
 - IAM
 
-  Provide identity management, authentication, authorization, auditing and other services for APIM. For details about IAM, see [IAM](/docs/enos/en/latest/iam/iam_overview).
+  Provide identity management, authentication, authorization, auditing and other services for APIM. For details about IAM, see [IAM](/docs/enos/en/2.0.9/iam/iam_overview).
 
 
 
