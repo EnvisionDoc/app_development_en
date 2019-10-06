@@ -10,7 +10,7 @@ This article describes how to test API agents by using the testing function of A
 
 ## Before You Start
 
-- You own an EnOS account and the permissions to define APIs. See [Policies, Roles and Permissions](/docs/enos/en/2.0.9/iam/concept/access_policy.html).
+- You own an EnOS account and the permissions to define APIs. See [Policies, Roles and Permissions](/docs/enos/en/latest/iam/concept/access_policy).
 - You have completed the task [Creating APIs](creating_api) and published an API.
 
 ## Procedure

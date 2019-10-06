@@ -8,7 +8,7 @@ This article describes how to create an API in the API Management.
 
 ## Before You Start
 
-- You own an EnOS account and the permissions to define APIs. See [Policies, Roles and Permissions](/docs/enos/en/2.0.9/iam/concept/access_policy.html).
+- You own an EnOS account and the permissions to define APIs. See [Policies, Roles and Permissions](/docs/enos/en/latest/iam/concept/access_policy).
 
 
 
@@ -44,9 +44,9 @@ This article describes how to create an API in the API Management.
 
 ### Backend Service
 
-Configurate the backend service for the API. Take example of adding [Get Device](/docs/api/en/2.0.9/connect/get_device.html). Configurate the parameters according to the API documentation.
+Configurate the backend service for the API. Take example of adding [Get Device](/docs/api/en/latest/connect/get_device.html). Configurate the parameters according to the API documentation.
 
-![](media/api_backend.png)
+![](../media/api_backend.png)
 
 1. In the **Backend Service** page, complete the following fields:
    - Backend Service Address: HTTP address and port that actually provide the API service.
@@ -61,7 +61,7 @@ Configurate the backend service for the API. Take example of adding [Get Device]
    
    - Backend Timeout Time: The response time of API gateway invoking the API backend service when receiving the API request. That is, the time from when the API gateway requests the backend service to that the API gateway receives the response. The time is calculated in millisecond. If the response time exceeds this value, the API gateway will stop requesting the backend service and return an appropriate error message to the user.
    
-   - Backend Parameters: The parameters that are required to invoke the backend services. Take example of the API [Get Device](/docs/api/en/2.0.9/connect/get_device.html), the parameters includes `orgId` and `assetId`.
+   - Backend Parameters: The parameters that are required to invoke the backend services. Take example of the API [Get Device](/docs/api/en/latest/connect/get_device.html), the parameters includes `orgId` and `assetId`.
       - Name
       - Location: The location of the parameter in the request, which can be Head, Query or Path.
       - Data Type: Type of the field, for which String, Int, Long, Float, Double, Boolean, Binary, Date, DateTime and Password are supported.
