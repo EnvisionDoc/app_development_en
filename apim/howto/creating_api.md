@@ -46,7 +46,7 @@ This article describes how to create an API in the API Management.
 
 Configurate the backend service for the API. Take example of adding [Get Device](/docs/api/en/latest/connect/get_device.html). Configurate the parameters according to the API documentation.
 
-![](media/api_backend.png)
+![](../media/api_backend.png)
 
 1. In the **Backend Service** page, complete the following fields:
    - Backend Service Address: HTTP address and port that actually provide the API service.

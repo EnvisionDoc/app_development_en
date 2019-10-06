@@ -13,7 +13,7 @@ How-to's
    testing_api
    monitoring_api
    deleting_api
-   publishing_api
+.. publishing_api
    
    
 
