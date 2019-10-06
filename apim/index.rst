@@ -4,7 +4,7 @@ EnOS API Management
 
 .. toctree::
    :maxdepth: 1
-   :caption:  overview
+   :caption: Overview
 
    api_management_overview
 
