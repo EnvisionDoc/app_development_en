@@ -1,36 +1,32 @@
 # Managing Roles
 
-Application Portal支持创建不同的角色。将应用的权限点与菜单的访问权限分配给角色，被赋予该角色的用户即获得相应菜单的访问权限和应用内的操作权限。
+Application Portal supports the creation of different roles. After assigning the application permission and menu access permission to a role, the user of that role would gain access to the corresponding menus and operation permissions within the application.
 
-- 菜单组：菜单组是应用内菜单的集合，可以组合菜单形成菜单组。将菜单组分配给角色，被赋予该角色的用户即拥有了菜单组内菜单的访问权限。
-- 权限：权限是应用内命名的，有特定操作的权限名称。将权限分配给角色后，被赋予该角色的用户即具备相应的权限操作能力。
+- Menu group: A menu group is a collection of menus displayed in an application, which is formed by combining menus. Once a menu group is assigned to a role, the user of that role would have the rights to access any menus in the menu group.
+- Permission: Permission is the privilege name that is named in an application and has specific operations. When a permission is assigned to a role, the user of that role would have the appropriate operational permissions within the application.
 
+## Create a Role
 
-
-## 创建角色
-
-1. 登录Application Portal管理后台，从导航栏中选择 **角色**。
+1. Log in to the Application Portal admin console and select **Role** from the navigation bar.
 
   .. image:: ../media/role_1.png
 
-2.  点击 **新建角色**，输入 **角色名称** 与 **描述**，点击 **提交**，即可完成角色创建。
+2. Click **New Role**, type the **Name** and **Description** of the role, then click **Submit** to complete the creation of the role.
 
   .. image:: ../media/role_2.png
 
-3. 点击新建角色的 **管理** 按钮，进入 **角色详情** 页面。
+3. Click the **Manage** icon for the created role to enter the **Role Details** page.
 
-4. 点击 **分配菜单组**，为角色选择其所在的应用及应用菜单组。完成后点击 **确认**。
+4. Click **Assign Menu Group**, select the application and menu groups to which the role can access, and then click **Confirm**.
 
   .. image:: ../media/role_3.png
 
   .. image:: ../media/role_4.png
 
-5. 点击 **分配权限点**，为角色选择其所在的应用及权限点。完成后点击 **确认**。
+5. Click **Assign Permission**, select the application and permission that the role has, and then click **Confirm**.
 
   .. image:: ../media/role_5.png
 
   .. image:: ../media/role_6.png
-
-
 
 <!-- end -->

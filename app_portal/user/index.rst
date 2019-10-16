@@ -1,8 +1,9 @@
 ﻿OU User
 =================
-普通用户，即应用的实际使用者。用户通过OU管理员创建的账号登录Application Portal，使用企业或组织内开发或购买的应用，查看或管理有权限访问的资产，进行经授权的相关的操作。
 
-用户登录Application Portal使用应用的操作如下图所示：
+OU Users are the actual user of applications in the Application Portal. Users log in the Application Portal with the accounts created by the OU administrator and access applications that are developed or bought by the enterprise or organization. Through the applications, users can view asset information and data to which they have access and take authorized operations.
+
+The tasks and workflow of a user in the application portal are shown as follows:
 
 .. image:: ../media/workflow_ou_user.png
 

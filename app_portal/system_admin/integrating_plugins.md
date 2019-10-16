@@ -1,44 +1,44 @@
-# Registering 3rd Party Plugins
+# Integrating Third-party Plugins
 
-Application Portal支持集成第三方插件，供组织内用户使用。
+Application Portal supports integration of third-party plugins for use by users within the enterprise  or organization.
 
-## 前提条件
+## Prerequisites
 
-Application Portal系统管理员需确保第三方插件合法可用，并获取插件的URL用于插件注册。
+The system administrator needs to ensure that third-party plugins are legally available and obtain the plugin's URL for registration.
 
-## 注册插件
+## Register a Plugin
 
-系统管理员可通过以下步骤，注册第三方插件：
+The system administrator can register third-party plugins by taking the following steps:
 
-1. 登录Application Portal管理后台，从导航栏中点击 **插件管理**，然后点击 **注册插件**。
+1. Log in to the Application Portal admin console, click **Plugin Management** from the navigation bar, and then click **Register Plugin**.
 
-2. 输入插件的中英文名称、插件的指向URL、和对插件的描述信息。
+2. Enter the name of the plugin in Chinese and Englsih, URL, and description of the plugin.
 
-3. 点击 **提交**，完成插件注册。
+3. Click **Submit** to complete the plugin registration.
 
    .. image:: ../media/registering_plugin.png
       :width: 300px
 
-## 分配插件
+## Assign a Plugin
 
-插件注册完成后，需将插件分配给需要使用插件的组织：
+Once a plugin is registered, you can assign the plugin to the organization that needs to use the plugin:
 
-1. 在插件列表中，找到注册完成的插件，点击 **分配OU** 图标。
+1. In the list of registered plugins, find out the target plugin and click the **Assign OU** icon.
 
-2. 在OU列表中，选中需要分配插件的组织。
+2. In the OU list, select the organization to assign the plugin to.
 
-3. 点击 提交，完成插件分配。
+3. Click Submit to complete the plugin assignment.
 
    .. image:: ../media/assigning_plugin.png
 
-已获得插件的组织的OU管理员登录管理后台后，即可在导航栏的 **插件管理** 菜单下，点击插件名称，使用插件。
+The OU administrator can then use the assigned plugin under the **Plugin Management** menu of the admin console.
 
-## 管理插件
+## Manage a Plugin
 
-系统管理员可对已注册的插件进行以下管理操作：
+The system administrator can perform the following management operations on registered plugins:
 
-1. 点击 **分配OU** 图标，将插件分配给更多组织，或移除已分配的组织。
-2. 点击 **编辑** 图标，更新插件的名称、指向URL、或描述信息。
-3. 点击 **删除** 图标，移除已注册的插件。删除插件之前，必须确保所有已分配插件的组织不再需要使用该插件。
+1. Click the **Assign OU** icon to assign a plugin to more organizations or remove an organization to which the plugin has been assigned.
+2. Click the **Edit** icon to update the plugin name, URL, or description.
+3. Click the **Delete** icon to remove the registered plugin. Before removing a plugin, you must ensure that the plugin is no longer needed for all organizations to which the plugin has been assigned.
 
 <!-- end -->

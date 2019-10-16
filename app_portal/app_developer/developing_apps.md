@@ -1,46 +1,46 @@
 # Developing and Configuring Applications
 
-企业或组织基于EnOS开发或购买的应用会被自动同步到Application Portal。为使应用与Application Portal相匹配，应用开发者需要对应用做相应的配置。
+The applications developed or purchased by an enterprise or organization based on EnOS are automatically synchronized to the Application Portal. In order to make the applications match the Application Portal, application developers need to configure the applications accordingly.
 
-## 注册应用
+## Register an Application
 
-应用开发者需要在EnOS控制台注册应用，并配置应用的菜单和权限。第三方开发者还需要管理来自其他OU的应用购买申请。具体步骤如下：
+Application developers need to register the applications in the EnOS console and configure their menus and permissions. Third-party developers also need to manage application purchasing requests from other OUs. The specific steps are given as follows:
 
-1. 登录EnOS控制台，从左侧导航栏中选择 **应用注册**，点击 **创建应用**，提供应用的基本信息完成应用注册。
+1. Log in to the EnOS Console, select **Application Registration** from the left navigation bar, click **Create** and provide basic information about the application to complete the application registration.
 
-2. 点击已注册的应用，在 **应用详情** 页面上的 **菜单管理** 标签下，点击 **新建菜单**，提供菜单的详细信息完成应用一级菜单和二级菜单的注册，配置菜单URL，调整菜单显示顺序。
+2. Click on the registered application, click **Create Menu** under the **Menu** tab on the **App Detail** page, provide the details of the menu to complete the registration of the level 1 and level 2 menus, then configure the menu URL and adjust the menu display order.
 
    .. image:: ../media/adding_menus.png
 
-3. 在 **应用详情** 页面上的 **权限点管理** 标签下，点击 **新建权限点**，提供权限点的详细信息完成应用权限的注册。
+3. Under the **Permission** tab on the **App Details** page, click **Create Access Point** and provide details to complete the registration of the application permissions.
 
-4. （第三方开发者）开发者收到应用购买申请后，在 **应用详情** 页面上的 **审批列表** 标签下，查看和审批客户的购买申请，授权客户可访问的菜单和拥有的权限。在 **客户管理** 标签下，管理已有客户使用应用的权限。
+4. After receiving the application purchasing requests, third-party developers can view and approve the customer's purchasing requests, and authorize the customers with appropriate menus and permissions under the **Requests Pending Approval** tab on the **App Details** page. Under the **Customer** tab, manage the permissions of existing customers to use applications.
 
-有关应用注册的详细信息，参考 [管理应用](../../app_management/managing_apps)。
+For more information about application registration, see [Registering and Managing Applications](../../app_management/managing_apps).
 
-## 配置资产授权
+## Configure Asset Permissions
 
-完成应用注册或购买应用后，应用开发者需要为应用配置资产访问权限。具体步骤如下：
+Once the application is registered or purchased, the application developer needs to configure asset access permissions for the application. The specific steps are given as follows:
 
-1. 登录EnOS控制台，从左侧导航栏中选择 **身份与权限 > 服务账号**。
+1. Log in to the EnOS Console and select **IAM > Service Account** from the left navigation bar.
 
-2. 在应用列表中，点击 **操作** 一栏中的 **授权** 图标。
+2. In the list of applications, click the **Authorize** icon in the **Operation** column.
 
    .. image:: ../media/sa_authentication.png
 
-3. 在 **授权** 页面，点击 **添加权限策略**，根据应用和业务的实际需求，选择预定义的或自定义的权限策略。一般需选择预定义的资产树和设备管理权限。
+3. On the **Authorization** page, click **Assign Policies** to select a predefined or custom permission policy based on the actual needs of application and business. Generally, it is required to choose the predefined Asset Tree Administrator and Device Management permissions.
 
    .. image:: ../media/selecting_auth.png
 
-4. 点击 **保存**，完成应用的资产授权配置。
+4. Click **Save** to complete the asset authorization configuration of the application.
 
-## 开发应用
+## Develop an Application
 
-在EnOS控制台完成应用注册和资产授权后，应用开发者可通过以下步骤进行应用开发和配置：
+After the application registration and asset authorization are completed in the EnOS Console, application developers can take the following steps for application development and configuration:
 
-1. 安装 ENOS-APP-PORTAL 前端SDK进行应用开发（下载地址和使用介绍：[https://www.npmjs.com/package/enos-app-portal-sdk](https://www.npmjs.com/package/enos-app-portal-sdk)）。
-2. 使用 ENOS-APP-PORTAL 定制登录页SDK定制应用登录页面（下载地址和使用介绍：https://www.npmjs.com/package/enos-app-portal-login）。
-3. 调用APP Portal服务接口（产生消息与更新消息接口），开启将应用消息推送到Application Portal的功能，用户登录Application Portal后，即可使用消息中心功能。有关产生消息与更新消息接口的详细信息，参考 **EnOS控制台 > API管理 > 公开API > app-portal-service** 中的API文档。
-4. 完成应用开发后，将应用发布上线。获取应用菜单的URL，并在 **应用详情** 页面上的 **菜单管理** 标签下，更新应用菜单的URL。
+1. Install the ENOS-APP-PORTAL front-end SDK for application development (download address and usage description: [https://www.npmjs.com/package/enos-app-portal-sdk](https://www.npmjs.com/package/enos-app-portal-sdk)).
+2. Use the ENOS-APP-PORTAL login page SDK to customize the login page of application portal (download address and usage description: https://www.npmjs.com/package/enos-app-portal-login).
+3. Invoke the APP Portal service interface (that can generate and update messages), enable the function for pushing application messages to the Application Portal. Once logging in to the Application Portal, users can use the message center. For more information about the API that can generate and update messages, refer to the API documentation in **EnOS Console > API Management > Public API > app-portal-service**.
+4. After the application development is completed, the application can be released online. Get the URL of the application menu and update the URL under the **Menu** tab on the **App Details** page.
 
 <!-- end -->

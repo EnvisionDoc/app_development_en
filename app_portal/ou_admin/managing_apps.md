@@ -1,73 +1,73 @@
 # Managing Applications
 
-通过EnOS控制台注册或购买的应用，会被自动同步到Application Portal的应用管理页面。OU管理员可对组织内的应用进行如下管理操作：
+The applications registered or purchased through the EnOS Console can be automatically synchronized to the Application Management page in the admin console of Application Portal. The OU administrator can perform the following management operations for the applications in the organization:
 
-- 启用或禁用OU注册或购买的应用
-- 分配应用展示的组织结构
-- 设置应用的菜单组
-- 将应用进行排序
-- 创建应用快捷方式
+- Enable or disable applications registered or purchased by the OU
+- Assign organization structures to applications
+- Set the menu group of an application
+- Sort applications
+- Create an application shortcut
 
-## 前提条件
+## Prerequisites
 
-1. 企业或组织的应用开发者需要预先在EnOS控制台注册应用，创建应用的菜单和权限点。
+1. The application developers of an enterprise or organization need to register the applications in the EnOS Console and create the application menus and permissions.
 
-2. 如果企业或组织购买第三方应用，OU管理员需要在EnOS控制台购买应用。第三方应用开发者收到购买申请后，审批OU购买应用的申请，并授权企业或组织访问应用的菜单和权限。
+2. Enterprise or organization can purchase third-party applications through EnOS Console. The OU administrator needs to submit the purchasing request on the Application Registration page of EnOS console. After receiving the purchase request, the third-party application developer approves the purchasing request from the OU and authorizes the enterprise or organization with the menus and permissions for accessing the application.
 
-有关通过EnOS控制台管理应用的详细信息，参考 [管理应用](../../app_management/managing_apps)。
+For more information about how to manage applications through the EnOS Console, see [Managing Applications](../../app_management/managing_apps).
 
-## 启用 / 禁用应用
+## Enable and Disable Applications
 
-通过EnOS控制台注册和购买的应用会自动同步到Application Portal的应用管理页面。OU管理员可通过以下步骤启停应用：
+The applications registered and purchased through the EnOS Console can be automatically synchronized to the Application Management page in the Application Portal. The OU administrator can enable and disable the application by taking the following steps:
 
-1. 进入管理后台，在左侧菜单栏中选择 **应用管理**，打开应用列表。
+1. Go to the admin console, select **Application Management** from the left menu bar and open the list of applications.
 
-2. 在列表的 **启用** 列中，滑动开关启用/禁用应用。
+2. In the **Enable** column of the application list, you can enable/disable an application by toggling the switch.
 
    .. image:: ../media/enable_apps.png
 
-应用启用后，OU内拥有该应用权限的人员将能看到该应用；禁用后，OU内全部用户在应用切换列表将看不到该应用，但应用配置的使用权限不变。
+After an application is enabled, users in the OU who have permissions to the application will be able to see the application. After an application is disabled, all users in the OU cannot see the application in the application list, but the usage permissions for the application configuration remain unchanged.
 
-## 为应用分配组织结构
+## Assign Organization Structure to an Application
 
-为应用分配组织结构后，组织结构内的用户即可使用该应用。通过以下步骤为应用分配组织结构：
+Once an organization structure is assigned to an application, all users within the organization structure can use the application. You can assign organization structures to an application by taking the following steps:
 
-1. 在应用列表中找到目标应用，点击 **分配组织结构** 图标。
+1. Find out the target application in the application list and click the **Assign Organization Structure** icon.
 
-2. 在弹窗中，选择将应用分配给已经创建好的组织结构，点击 **确认**。
+2. In the pop-up window, select the created organization structure to assign to the application, and click **Confirm**.
 
    .. image:: ../media/apps_2.png
 
-## 管理菜单组
+## Manage Menu Groups
 
-通过管理菜单组，可配置应用内需要展示的菜单结构和组合。通过以下步骤管理应用的菜单组：
+By managing menu groups, you can configure the menu structure and combinations that need to be displayed within an application. You can manage the menu groups by taking the following steps:
 
-1. 在应用列表中找到目标应用，点击 **管理菜单组** 图标。
+1. Find out the target application in the application list and click the **Manage Menu Group** icon.
 
-2. 在 **菜单组** 一栏中，点击 + 新建菜单组。
+2. In the **Menu Group** column, click + to create a menu group.
 
    .. image:: ../media/apps_5.png
 
-3. 对应用内已有菜单组，选择 **重命名** / **删除** 可重命名菜单组或删除菜单组。
+3. For existing menu groups in the application, you can select **Rename/Delete** to rename or delete them.
 
    .. image:: ../media/apps_3.png
 
-4. 选中一个菜单组，点击 **配置菜单** 按钮，为该菜单组配置应用内的菜单选项，可多选（勾选了上级菜单，所属下级菜单默认被勾选）。
+4. Select a menu group, and click the **Configure Menu** button to configure the in-application menu items for the menu group, where it is allowed to select multiple items (once an upper menu is checked, all the subordinate menus under it will be checked by default).
 
    .. image:: ../media/apps_4.png
 
-## 应用排序
+## Sort Applications
 
-通过应用排序功能，可调整应用列表中所有应用和应用快捷方式的显示顺序。
+With the application sorting function, you can adjust the order by which all the applications and application shortcuts in your application list appear.
 
-1. 在应用列表页面，点击 **应用排序** 按钮。
+1. On the Application List page, click the **Sort Applications** button.
 
-2. 在弹窗中，拖拽应用名称，对应用进行排序，点击 **确定**。应用列表将按照新的顺序显示应用。
+2. In the pop-up window, drag the application names to sort the applications, and then click **OK**. The application list will display the applications in the new order.
 
    .. image:: ../media/ordering_apps.png
 
-## 创建应用快捷方式
+## Create an Application Shortcut
 
-Application Portal支持创建应用快捷方式，将不同应用的模块或菜单整合在一起，组成新的应用。有关应用快捷方式的详细信息，参考 [创建应用快捷方式](creating_app_shortcut)。
+The Application Portal supports creation of application shortcuts, which can integrate the modules or menus of different applications to form a new application. For more information about application shortcuts, see [Creating Application Shortcuts](creating_app_shortcut).
 
 <!-- end -->

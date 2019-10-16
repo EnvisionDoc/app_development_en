@@ -1,8 +1,8 @@
 ﻿Application Developer
 =================
-应用开发者可以是企业或组织内部的应用开发人员，也可以是第三方应用开发者。应用开发者需对应用做相应的配置，应用才能同步和展示到Application Portal。
+An application developer can be the inhouse developer of an enterprise or organization, or a third-party application developer. The application developer needs to register applications on EnOS Console and make appropriate configuration so that they can be synchronized to and displayed in the Application Portal.
 
-应用开发者在EnOS控制台管理应用的任务和工作流程如下图所示：
+The tasks and workflow of an application developer managing applications on EnOS Console are shown as follows:
 
 .. image:: ../media/workflow_app_dev.png
 
@@ -11,4 +11,3 @@
    :caption: How-to's
 
    developing_apps
-

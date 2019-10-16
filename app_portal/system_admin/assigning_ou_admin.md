@@ -1,40 +1,40 @@
-# Assigning OU Administrator
+# Assigning an OU Administrator
 
-在进行初始化时，系统管理员需要为企业或组织分配1位OU管理员。
+During initialization, the system administrator needs to assign an OU administrator to an enterprise or organization.
 
-## 前提条件
+## Prerequisites
 
-企业或组织已经在EnOS控制台完成创建OU申请，并且已获取OU名称。
+An enterprise or organization has completed the request for OU creation in the EnOS Console and has obtained the OU name.
 
-## 分配管理员
+## Assign OU Administrator
 
-系统管理员可通过以下步骤，为OU分配管理员：
+The system administrator can assign an administrator to OU by taking the following steps:
 
-1. 登录Application Portal管理后台，从导航栏中点击 **OU管理员**。
+1. Log in to the Application Portal, click **Admin Console** in the tool bar, and click **OU Administrator** from the navigation bar.
 
-2. 在搜索框中，输入OU名称进行查询，查询结果显示在OU列表中。
+2. In the search box, enter the OU name to query, and the query results are displayed in the OU list.
 
-3. 找到目标OU，点击 **分配管理员** 图标。
+3. Find out the target OU and click the **Assign Administrator** icon.
 
    .. image:: ../media/assigning_ou_admin.png
 
-4. 输入邮箱地址查找现有用户，并将其分配为OU管理员。若用户不存在，可点击 **新建用户为管理员**。
+4. Enter an email address to find out an existing user and assign the user as the OU administrator. If the user does not exist, click **Create an account as administrator**.
 
    .. image:: ../media/assign_new_admin.png
       :width: 300px
 
-5. 在 **新建用户** 弹窗中，更改OU管理员的用户名，点击 **提交**，完成OU管理员分配。
+5. In the **New User Account** pop-up window, change the OU administrator's account name and click **Submit** to complete the OU administrator assignment.
 
    .. image:: ../media/create_new_admin.png
       :width: 300px
 
-OU管理员将收到系统邮件，提示账号创建成功。
+The OU administrator will receive a system email indicating that the account has been created.
 
-## 重置管理员密码
+## Reset the Administrator Password
 
-系统管理员可通过以下步骤，重置OU管理员密码：
+The system administrator can reset the OU administrator password by taking the following steps:
 
-1. 在OU管理员列表中，找到目标OU，点击 **重置管理员密码** 图标。
-2. 在二次确认弹窗中，点击 **确认**。系统将发送重置管理员密码邮件至OU管理员邮箱。
+1. In the OU administrator list, find out the target OU and click the **Reset Administrator Password** icon.
+2. In the confirmation pop-up window, click **OK** to confirm. The system will send an email for resetting administrator password to the OU administrator's mailbox.
 
 <!-- end -->

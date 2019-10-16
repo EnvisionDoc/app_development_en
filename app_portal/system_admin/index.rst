@@ -1,8 +1,9 @@
 ﻿System Administrator
 ==================
-系统管理员为企业或组织完成初始化、创建和分配OU管理员。
 
-系统管理员的任务和工作流程如下图所示：
+The system administrator initializes the Application Portal, creates and assigns the OU administrator, and registers plug-in applications for an enterprise or organization.
+
+The tasks and workflow of the system administrator are shown as follows:
 
 .. image:: ../media/workflow_sys_admin.png
 

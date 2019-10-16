@@ -1,140 +1,140 @@
 # Managing Users
 
-OU管理员可对组织内的用户进行如下管理操作：
+The OU administrator can perform the following management operations for users in the organization:
 
-- 添加用户：将已在系统中创建账号的用户添加到当前企业/组织；为还未创建账号的用户新建账号，并将其添加进企业/组织
-- 批量导入用户：使用Excel文件批量导入用户
-- 移除用户：将已有用户从企业/组织移除
-- 为用户分配角色；移除用户的角色
-- 为用户分配组织结构；将用户从组织结构移除
-- 为用户分配用户组；将用户从用户组移除
+- Adding a user: add a user who has an account created in the system to the current enterprise or organization; create an account for a user who has no account created, and add the user to the enterprise or organization
+- Importing users in batch: import users in batch by an Excel file
+- Removing a user: remove an existing user from your enterprise or organization
+- Assigning a role to a user; removing a user's role
+- Assigning an organization structure to a user; removing a user from an organization structure
+- Adding a user to a user group; removing a user from a user group
 
-## 前提条件
+## Prerequisites
 
-OU管理员已在管理后台新建组织结构、角色、和用户组。
+The OU administrator has created organization structures, roles and user groups in the admin console.
 
-## 添加用户
+## Add a User
 
-通过以下步骤为企业/组织添加用户：
+You can add a user to your enterprise or organization by taking the following steps:
 
-1. 进入管理后台，在左侧菜单栏中选择 **用户**，打开用户列表。
+1. Go to the admin console, and select **User** from the left menu bar to open the list of users.
 
-2. 点击 **添加用户** 按钮，输入用户邮箱搜索用户。若系统中该邮箱已存在账号，则可直接选择该用户，将用户添加进企业/组织。
+2. Click the **Add User** button and type the user's email address for search purpose. If an account corresponding to this email address already exists in the system, you can directly select the user and add the user to the enterprise or organization.
 
    .. image:: ../media/user_1.png
       :width: 300px
 
-3. 若用户账号不存在，则可点击 **新建用户**，创建账号。
+3. If the user account does not exist, you can click **Create a user account** to create an account.
 
    .. image:: ../media/user_2.png
       :width: 300px
 
-4. 编辑账号名（默认为邮箱前缀），然后点击 **提交**。提交后，账号将不能被修改。
+4. Edit the account name (mailbox prefix by default) and click **Submit**. Once submitted, the account cannot be modified.
 
    .. image:: ../media/user_3.png
       :width: 300px
 
-创建完成后，用户将收到通知邮件，且邮件里有设置密码的链接。
+After the creation is completed, the user will receive a notification email containing a link to set the account password.
 
-### 批量导入用户
+### Import Users
 
-通过以下步骤为企业/组织批量导入用户：
+You can import users in batch to your enterprise or organization by taking the following steps:
 
-1. 在用户列表页面，点击 **批量导入** 按钮。
+1. On the User List page, click the **Batch Import** button.
 
-2. 点击 **下载模板**，按照模板文件中的说明信息，编辑批量导入的用户信息。
+2. Click **Download templates** to download the template and edit the information of users to be imported in batch by following the instructions in the template file.
 
-3. 上传编辑好的模板文件，并查看导入用户的结果。如果导入失败，点击 **下载导入失败记录**，修改文件后再上传。
+3. Upload the well-edited template file and view the user importing results. If such import fails, click **Download failed records**, modify the file, and then upload it again.
 
    .. image:: ../media/importing_user.png
 
-### 移除用户
+### Remove a User
 
-通过以下步骤将已有用户移出企业/组织：
+You can remove existing users out of your enterprise or organization by taking the following steps:
 
-1. 在用户列表中，找到待移除的用户。
+1. In the list of users, find out the user to be removed.
 
-2. 点击用户列表最右边的 **从本企业/组织移除** 图标，并点击 **确认**。
+2. Click **Remove from Enterprise/Organization** icon on the right side of the user list, and click **Confirm**.
 
    .. image:: ../media/user_4.png
       :width: 300px
 
-确认移除后，该用户将不属于本企业/组织。
+After confirming the removal, the user will not be part of the enterprise or organization.
 
-## 为用户分配角色
+## Assign a Role to a User
 
-通过以下步骤为现有用户分配角色：
+You can assign roles to existing users by taking the following steps:
 
-1. 在用户列表中，找到待管理的用户，点击用户列表右侧的 **管理** 图标。
+1. In the user list, find out the user to be managed and click the **Manage** icon on the right of the user list.
 
-2. 在 **用户详情** 页面，点击 **编辑** 按钮，可编辑用户姓名和手机号；点击 **重置密码** 按钮并确认，系统将发送重置密码邮件给用户。
+2. On the **User Details** page, click the **Edit** button to edit the user's name and phone number; click the **Reset Password** button and confirm, and the system will send an email for password resetting to the user.
 
    .. image:: ../media/user_5.png
       :width: 300px
 
-3. 点击 **分配角色** 按钮，选择为用户分配的角色（可多选）。用户被赋予角色后，将被授予该角色拥有的权限。
+3. Click the **Assign Role** button to select the role to be assigned to the user (multiple choices are allowed). Once a role is assigned to a user, the permissions corresponding to that role will be granted to the user.
 
    .. image:: ../media/user_6.png
 
-### 移除用户角色
+### Remove a User's Role
 
-通过以下步骤移除用户的角色：
+You can take the following steps to remove a user's role:
 
-1. 在已分配角色列表中，找到待移除的角色。
+1. In the list of assigned roles, find out the role to be removed.
 
-2. 点击 **移除角色** 图标，并确认。
+2. Click the **Remove Role** icon and confirm.
 
    .. image:: ../media/user_7.png
       :width: 300px
 
-移除角色后，用户将不再获得该角色相关权限。如果需要，可以重新为该用户分配该角色。
+After a role is removed, the user will no longer have the permissions granted for that role. That role can be reassigned to the user if needed.
 
-## 为用户分配组织结构
+## Assign Organization Structure to a User
 
-通过以下步骤为现有用户分配组织结构：
+You can assign organization structures to existing users by taking the following steps:
 
-1. 在 **用户详情** 页面，点击 **分配组织结构** 按钮。
+1. On the **User Details** page, click the **Assign Organization Structure** button.
 
-2. 在弹窗中，选择为用户分配的组织结构（可多选，选择了父节点，下级节点不能被勾选，但默认具有下级节点的权限），然后点击 **确认**。
+2. In the pop-up window, select the organization structure to be assigned to the user (where multiple choices are allowed, and if you select a parent node, any subordinate node under it cannot be checked, but the permissions of the subordinate node are granted by default), and then click **Confirm**.
 
    .. image:: ../media/user_8.png
 
-用户加入组织结构后，将同时被赋予组织结构相应的资产查看权限。
+After a user joins an organization structure, the corresponding permissions to view assets in the organization structure are granted to the user.
 
-### 将用户从组织结构移除
+### Remove a Users from Organization Structures
 
-通过以下步骤将用户从组织移除：
+You can remove users from your organization structure by taking the following steps:
 
-1. 在所属组织结构列表中，找到待移除的组织结构。
+1. In the list of assigned organization structures, find out the target organization structure.
 
-2. 点击 **从本企业/组织移除** 图标，并确认。
+2. Click **Remove from Enterprise/Organization** icon and confirm.
 
    .. image:: ../media/user_9.png
       :width: 300px
 
-从企业/组织移除后，用户将不再获得该组织结构相关权限。如需要，可以重新为该用户重新分配该组织结构。
+Once being removed from the enterprise or organization, users will no longer have the permissions related to the organization structure. That organization structure can be reassigned to the user if needed.
 
-## 为用户分配用户组
+## Add a User to a User Group
 
-通过以下步骤将现有用户加入用户组：
+You can add an existing user to a user group by taking the following steps:
 
-1. 在 **用户详情** 页面，点击 **分配用户组** 按钮。
+1. On the **User Details** page, click the **Assign User Group** button.
 
-2. 在弹窗中，选择为用户分配的用户组（可多选），然后点击 **确认**。
+2. In the pop-up window, select the user group to be assigned to the user (where multiple choices are allowed), and then click **Confirm**.
 
    .. image:: ../media/user_10.png
 
-用户加入用户组后，将同时被赋予用户组相应的资产查看权限
+After a user joins a user group, the corresponding permissions to view assets in the user group are also granted.
 
-### 将用户从用户组移除
+### Remove a User from a User Group
 
-通过以下步骤将用户从用户组移除：
+You can take the following steps to remove a user from a user group:
 
-1. 在所属用户组列表中，找到待移除的用户组。
+1. In the list of assigned user groups, find out the user group to be removed.
 
-2. 点击 **从用户组移除** 图标，并确认。
+2. Click **Remove from User Group** icon and confirm.
 
    .. image:: ../media/user_11.png
       :width: 300px
 
-移除后，用户将不再获得用户组相关权限。如需要，可以重新为该用户重新加入该用户组。
+Once being removed, the user will no longer have the permissions granted for that user group. The user can be added to the user group if needed.

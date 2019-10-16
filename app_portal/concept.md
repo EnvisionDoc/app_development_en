@@ -1,35 +1,35 @@
 # Terminology
 
-本文介绍Application Portal涉及的术语。
+This article describes the terminology involved in Application Portal.
 
-## 组织结构
+## Organization structure
 
-组织结构是一种以节点为管理单元的资产管理层级关系（如以地理位置设置为层级），将企业或组织的人员分配到组织结构后，人员即可使用指定组织内的应用，访问指定资产的信息和数据。帮助企业或组织实现人员、应用、和资产数据的集中和分级管理。
+The organization structure is a hierarchical relationship for asset management with nodes as the management units (for example, setting the hierarchy by geographic location). After the personnels of an enterprise or organization are assigned into the organizational structure, they can use the applications in the specified organizations and access the information and data of specified assets. It is helpful for enterprises or organizations to achieve centralized and hierarchical management of users, applications, and asset data.
 
-## 应用
+## Application
 
-通过EnOS控制台注册或购买的应用，会被自动同步到Application Portal中。OU管理员可根据企业或组织的业务需求，启用或禁用应用、将应用分配给组织结构内的组织节点、管理应用的菜单组合、或将多个应用的菜单组合成新的应用。
+The applications registered or purchased through the EnOS console can be automatically synchronized to the Application Portal. An OU administrator can enable or disable an application, assign an application to an organization node within an organization structure, manage menu groups of applications, or combine menus of multiple applications into a new application based on the business needs of the enterprise or organization.
 
-## 菜单组
+## Menu group
 
-菜单组是应用内展示菜单的集合，通过组合已创建的菜单形成菜单组。将菜单组分配给角色，角色即拥有了菜单组内菜单的访问权限。应用的菜单由应用开发者通过EnOS控制台的应用注册页面进行配置。
+A menu group is a collection of menus displayed in an application, which is formed by combining the created menus. Once a menu group is assigned to a role, the role has the permissions to access any menus in the menu group. The application's menus are configured by the application developer via the application registration page in the EnOS console.
 
-## 权限
+## Permission
 
-权限是应用内命名的、有特定操作的权限名称。将权限分配给角色后，该角色的用户具备应用内相应的操作能力。应用的权限由应用开发者通过EnOS控制台的应用注册页面进行配置。
+Permission is the privilege name that is named in an application and has specific operations. When permission is assigned to a role, the user of that role would have the appropriate operational capabilities within the application. The application's permission is configured by the application developer via the application registration page in the EnOS console.
 
-## 角色
+## Role
 
-角色是一组功能权限的集合，包括菜单访问权限和操作权限。为用户分配角色后，被赋予该角色的用户即获得相应菜单的访问权限和应用内的操作权限。
+A role is a collection of functional permissions, including menu access permissions and operational permissions. After assigning a role to a user, the user of that role would gain access to the corresponding menus and operation permissions within the application.
 
-## 用户组
+## User group
 
-将组织内的用户进行分组，同一个用户组内的用户拥有相同的资产访问权限。在进行资产权限分配时，可通过用户组进行权限分配，提高管理效率。
+A user group is formed by grouping the users within an organization, and users in the same user group have the same asset access permissions. You can assign asset permissions through user groups to improve management efficiency.
 
-## 资产权限
+## Asset permission
 
-在EnOS控制台注册的组织的资产，可由资产同步功能同步到Application Portal中。OU管理员将资产分配到组织节点、并为组织内的用户或用户组分配资产权限，组织内有权限的用户通过应用才可查看资产的信息和数据。
+The organization assets registered in the EnOS console can be synchronized to the Application Portal by the asset synchronization function. The OU administrator assigns assets to the organization nodes and assigns asset permissions to users or user groups within the organization. Users with appropriate permissions within the organization can view asset information and data through applications.
 
-## 子管理员
+## Sub administrator
 
-子管理员可以在特定组织结构范围内，管理相应的人员权限，比如分配角色和分配资产访问权限等。OU管理员可以将组织内的用户添加为子管理员，并分配子管理员可管理的组织节点范围和角色。
+Sub administrators can manage the appropriate personnel permissions, such as assigning roles and assigning asset access permissions, within a specific organization structure. An OU administrator can add a user within an organization as sub administrator and specify organization nodes and roles that the sub administrator can manage.

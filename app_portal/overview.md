@@ -1,56 +1,54 @@
 # About Application Portal
 
-.. note:: This documentation is being translated. 
+EnOS Application Portal is a universal and flexible portal for permission management and unified login for application access. It provides application developers with a unified RBAC-based permission system and login portal, and helps to ensure that end users can smoothly access and use applications in a same system under a same set of users and permissions and same experience, improving security control and reducing R&D costs.
 
-EnOS Application Portal 是通用灵活的权限管理和统一登录门户，它提供给应用开发者一套基于RBAC的统一权限体系和登录门户，同时保证终端用户可以在同一套系统，同一套用户和权限，统一的用户体验下，流畅的访问和使用应用，提高安全控制，降低研发成本。
-
-EnOS Application Portal 是基于EnOS的应用统一登录门户，其系统架构图如下：
+Application Portal is an unified EnOS-based application login portal. Its system architecture is as follows:
 
 .. image:: media/architecture.png
 
-## 主要功能
+## Main Functions
 
-EnOS Application Portal 的主要功能包括：
+The main functions of EnOS Application Portal include:
 
-- 基于RBAC的权限管理，包括角色、权限、用户组、组织结构等通用能力
-- 通过资产管理层级，自动授权客户资产
-- 通过子管理员配置，分层分级授权管理
-- 开放应用菜单配置，实现用户跨应用访问
-- 统一门户和个性化配置，实现多OU切换
-- 提供实名认证、多因子认证、和安全等级防护（规划中）
+- RBAC-based permission management, including role, permission, user group, organization structure, and other general capabilities
+- Automatic authorization of assets through asset management hierarchy
+- Hierarchical authorization management through sub administrator configuration
+- Application menu configuration for user's cross-application access
+- Unified portal and personalized configuration for multiple OU access
+- Real-name certification, multi-factor authentication, and security level protection (in planning)
 
-以上功能的实现基于 Application Portal 与 EnOS 应用、资产、权限等模块的交互。Application Portal 按照功能划分可分为应用Portal和管理后台两大模块，本文档从应用开发者、系统管理员、OU管理员、和应用用户的角度，分别介绍 Application Portal 与 EnOS 的交互，以及应用Portal和管理后台两大模块的功能和使用方法。
+The above-mentioned functions work on the basis of the interaction of Application Portal with the applications, assets, permissions and other modules of EnOS. The Application Portal consists of two major modules: application portal and admin console. This documentation introduces, from the perspectives of application developer, system administrator, OU administrator, and application user, the interaction between Application Portal and EnOS as well as the the functions and usage of the two modules.
 
-## 相关角色
+## Related Roles
 
-EnOS Application Portal 主要服务于以下角色：
+EnOS Application Portal serves mainly for the following roles:
 
-**应用开发者**
+**Application developer**
 
-基于EnOS提供的API和SDK，线下开发应用。应用开发者可以是企业或组织内部的应用开发人员，也可以是第三方应用开发者。应用开发者需对应用做相应的配置，应用才能同步和展示到Application Portal。
+Develop applications offline based on the API and SDK provided by EnOS. An application developer can be the inhouse developer of an enterprise or organization, or a third-party application developer. The application developer needs to configure the applications appropriately so that they can be synchronized to and displayed in the Application Portal.
 
-**系统管理员**
+**System administrator**
 
-为企业或组织完成Application Portal的初始化、创建和分配OU管理员，注册插件应用等。
+Initialize the Application Portal, create and assign the OU administrator, and register plug-in applications for an enterprise or organization.
 
-**OU管理员**
+**OU administrator**
 
-企业或组织的IT或系统运维人员。OU管理员通过系统管理员分配的账号，登录Application Portal，进入管理后台，负责企业或组织内应用的分类管理、用户与权限、和资产等的全面管理。
+The IT or system operation and maintenance personnel in an enterprise or organization. The OU administrator can log in to the Application Portal and enter the admin console with the account assigned by the system administrator, and is responsible for the overall management of the classification, users and permissions, and assets for the applications of an enterprise or organization.
 
-**应用用户**
+**Application user**
 
-应用的实际使用者。用户通过OU管理员创建的账号登录Application Portal，使用企业或组织内开发或购买的应用，查看或管理有权限访问的资产，进行经授权的相关的操作。
+The actual user of an application. A user can log in to the Application Portal with the account created by the OU administrator, and can use the applications developed or purchased by an enterprise or organization to view or manage the assets that are authorized to access, and perform appropriate authorized operations.
 
-## 相关服务
+## Related Services
 
-### 设备管理
+### Device Management
 
-EnOS设备管理服务帮助你快速将物理设备安全连接至EnOS云端并开始数据传输，管理设备周期，及将物理世界的资产结构映射至数字世界。[了解更多 >>](/docs/device-connection/zh_CN/latest/device_management_overview.html)
+The EnOS Device Management Service helps you quickly connect physical devices securely to the EnOS cloud for data transfers, manage device cycles, and map the asset structure in the physical world to the digital world. [Learn more >>](/docs/device-connection/en/latest/device_management_overview.html)
 
-### 数据资产管理
+### Data Asset Management
 
-EnOS数据资产管理服务提供流数据处理、时序数据管理、数据质量、数据订阅等服务。[了解更多 >>](/docs/data-asset/zh_CN/latest/data_asset_overview)
+The EnOS Data Asset Management Service provides stream data processing, time series data management, data quality, data subscription and other services. [Learn more >>](/docs/data-asset/en/latest/data_asset_overview)
 
-### 应用使能
+### Application Enablement
 
-使用Enos SDK开发应用程序，并通过EnOS API访问EnOS服务和资源。[了解更多 >>](/docs/app-development/zh_CN/latest/app_dev_overview.html)
+You can develop applications by using the EnOS SDK and access EnOS services and resources through the EnOS APIs. [Learn more >>](/docs/app-development/en/latest/app_dev_overview.html)
