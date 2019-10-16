@@ -1,35 +1,37 @@
-# Managing Messages
+# Managing Application Messages
 
-通过Application Portal消息中心，你可以查看和管理应用发送的告警和通知消息。
+Through the Application Portal message center, you can view and manage alerts and notification messages sent from applications.
 
-## 前提条件
+## Prerequisites
 
-Application Portal消息中心仅显示应用开启消息发送至Application Portal的消息，应用开发者需要在应用端开启和配置消息发送功能。
+The Application Portal message center only displays messages that are sent to the Application Portal with messaging enabled for an application. The application developer needs to enable and configure the messaging function on the application side.
 
-## 查看消息
+## View Messages
 
-通过以下步骤，查看应用发送的消息：
+You can use the following steps to view the messages sent by an application:
 
-1. 登录Application Portal，点击页面右上角的响铃图标，打开 **实时告警** 窗口。
+1. Log in to the Application Portal and click the bell icon in the upper right corner of the page to open the **Real-Time Alerts** window.
 
-2. 在窗口右侧的应用列表中，点击应用名称，查看应用的消息列表。
+2. In the list of applications on the right side of the window, click on an application name to see the list of messages.
 
-   .. note:: 消息列表仅展示你有权限访问的应用和资产相关的消息，应用名称旁的数字表示未处理的消息数量。
+   .. note:: The list of messages only shows the messages related to the applications and assets to which you have permission to access, and the number next to the application name indicates the number of pending messages.
 
-3. 浏览消息的概要信息，包括应用自定义的标签、消息发生的时间、和消息的概要信息等。
+3. You can view the message summary information, including the application custom tags, the time when the message occurs, and the summary information of the message.
 
-4. 点击任意消息，打开应用，查看消息的详细信息。
+4. Click on any message to open the application and view the details of the message.
 
-5. 点击窗口页面底部的 **查看全部**，在应用中查看应用的所有消息，如下图所示：
+5. Click **View all** at the bottom of the page to view all the messages in the application, as shown below:
 
    .. image:: ../media/message_center.png
 
-## 管理操作
+## Managing Messages
 
-通过以下步骤，管理应用消息：
+You can manage application messages by taking the following steps:
 
-1. 点击任意消息，打开应用，查看消息的详细信息。在应用中对消息进行处理后，消息列表将不再显示该条消息。
-2. 点击每条消息旁的 **操作** 按钮，可对消息进行快速操作，将消息从列表中消除。该操作按钮可在应用测进行自定义。
-3. 在 **实时告警** 窗口中，点击声音图标，可开启或关闭新消息提示音；点击弹窗图标，可开启或关闭新消息弹窗提示。
+1. Click on any message to open the application and view the details of the message. A message will no longer be displayed in the list of messages once it is processed in the application.
+
+2. Click the customized **Operation** button next to any message to quickly remove the message from the list. This button can be customized in the application side.
+
+3. In the **Real-Time Alerts** window, click the sound icon to turn on/off the new message prompt tone; click the pop-up window icon to turn on/off the new message pop-up prompt.
 
 <!-- end -->

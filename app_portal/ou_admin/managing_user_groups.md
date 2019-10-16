@@ -1,24 +1,19 @@
 # Managing User Groups
 
-Application Portal支持创建用户组。同一个用户组内的用户拥有相同的资产访问权限。
+Application Portal supports the creation of user groups. Users in the same user group have the same permissions to access assets.
 
+## Create a User Group
 
-
-
-## 创建用户组
-
-1. 登录Application Portal管理后台，从导航栏中选择 **用户组**。
+1. Log in to the Application Portal admin console and select **User Group** from the navigation bar.
 
   .. image:: ../media/user_group_1.png
 
-2. 点击 **新建用户组**，输入 **用户组名称** 和 **描述**，点击 **提交**，即可完成用户组创建。
+2. Click  **New User Group**, enter the name and description of the user group, then click **Submit** to complete the creation of a user group.
 
   .. image:: ../media/user_group_2.png
 
+## Next Step
 
-
-## 后续操作
-
-完成用户组创建后可以在 [资产权限分配](managing_asset_permission#asset_assign) 中为用户组分配可管理的资产。
+After a user group is created, you can assign manageable assets to the user group in [Asset Permission](managing_asset_permission#asset_assign) management.
 
 <!-- end -->

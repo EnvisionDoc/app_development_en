@@ -1,8 +1,9 @@
 ﻿OU Administrator
 =================
-OU管理员通过系统管理员分配的账号，登录Application Portal，进入管理后台，负责企业或组织内应用的分类管理、用户与权限、和资产等的全面管理。
 
-OU管理员在Application Portal管理后台任务和工作流程如下图所示：
+With the account created and assigned by the system administrator, the OU administrator is responsible for the overall management of the classification, users and permissions, and assets for the applications of an enterprise or organization.
+
+The tasks and workflow of an OU administrator in the admin console are shown as follows:
 
 .. image:: ../media/workflow_ou_admin.png
 

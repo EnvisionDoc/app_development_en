@@ -1,44 +1,49 @@
-# Getting Started with the Application Portal
+# Basic Operations in Application Portal
 
+EnOS Application Portal provides users with a unified portal to access applications of multiple domains, enabling easy and quick access of applications across enterprises and organizations.
 
-EnOS Application Portal 为用户提供多领域多应用的统一门户，可帮助用户便捷地实现跨企业/组织、跨应用的访问。
+The main functions of the application portal include:
+- List of applications by categories
+- Switching among enterprises or organizations
+- Centralized message center for all applications
+- Switching language
+- User information and password
+- Help center for applications
+- Entry to the Admin Console (for administrators only)
 
-##主要功能
-切换应用、切换企业/组织、应用消息中心、切换语言、用户信息、修改密码、帮助中心、进入管理后台（仅管理员可用）。
+## Basic Operations
 
-## 基本操作
+1. Enter the Application Portal login page URL in the browser, in the format of `https://app-portal.{domain_name}/login`.
 
-1. 在浏览器中输入 Application Portal 登录页URL，格式为 `https://app-portal.{domain_name}/login`。
+   .. note:: The `domain_name` in the URL is the domain name for deploying the Application Portal service. Different cloud services and instances have different service addresses, please contact the Envision project manager or technical support for corresponding service information.
 
-   .. note:: URL中的 `domain_name` 为部署Application Portal服务的域名。由于不同的云服务和实例的服务地址不同，请联系远景智能项目经理或技术支持获取对应的服务信息。
-
-2. 输入账号密码进行登录，如果忘记密码， 可点击 **忘记密码** 进行密码重置。登录之后选择进入的企业或组织，如果只有一个企业或组织，用户将直接进入该组织。
+2. Enter your account and password to log in. If you forgot your password, you can click **Forgot Password** to reset the password. After logging in, select the enterprise or organization you want to enter. If there is only one enterprise or organization, you will enter the organization directly.
 
    .. image:: ../media/portal_login.png
 
-3. 进入Portal：登录成功后，会默认进入应用列表中的第一个应用的首页。如果你没有任何应用的访问权限，页面会报错，联系OU管理员开通应用权限。
+3. After logging in successfully, you will enter the homepage of the first application in the application list by default. If you do not have permissions to access any application, the page will report an error. In that case, you can contact the OU administrator to obtain appropriate application permissions.
 
    .. image:: ../media/portal_home_page.png
 
-4. 切换应用：点击页面左上角的应用列表，查看所有已开启并有权限访问的应用列表。点击应用名称，即可切换需使用的应用。
+4. Switching among applications: Click the application list in the top left corner of the page to view the list of all applications that are enabled and accessible. Click the application name to switch to the application you want to use.
 
    .. image:: ../media/portal_app_list.png
 
-   .. note:: 如果访问的应用还没有权限，或应用中还无任何菜单的权限，页面会报错，可联系OU管理员开通应用或应用中菜单的权限。
+   .. note:: If you do not have the permissions to access the application you want to access or any menu in it, the page will report an error. In that case, you can contact the OU administrator to obtain appropriate permissions for the application or its menus.
 
-5. 切换语言：点击页面右上角的用户信息下拉菜单，选择 **切换语言** 可切切换中英文页面。
+5. Switching among languages: Click the User Information drop-down list in the upper right corner of the page, select **Switch Language** to switch between Chinese and English.
 
    .. image:: ../media/portal_switch_lang.png
 
-6. 修改密码：点击页面右上角的用户信息下拉菜单，选择 **修改密码** 可重新设置密码。
+6. Changing the password: Click the User Information drop-down list in the upper right corner of the page and select **Change Password** to reset the password.
 
-7. 切换企业/组织：点击页面右上角的用户信息下拉菜单，选择 **切换企业/组织**，然后选择需要进入的企业或组织。
+7. Switching among enterprises or organizations: Click the User Information drop-down list in the top right corner of the page, select **Change Enterprise / Organization**, and then select the enterprise or organization you want to enter.
 
-8. 消息中心：点击页面右上角的 “响铃” 图标，可查看应用推送的实时告警信息。
+8. Message Center: Click the bell icon in the upper right corner of the page to view the real-time alert information pushed by applications.
 
    .. image:: ../media/portal_message_center.png
       :width: 300px
 
-   有关消息中心的详细信息，参考 [管理应用消息](managing_messages)。
+   For more information about the Message Center, see [Managing Application Messages](managing_messages).
 
-9. 帮助/文档中心：点击页面右上角 “问号” 图标，可进入帮助中心。
+9. Help Center: You can go to the Help Center of applications by clicking the question mark icon in the upper right corner of the page.

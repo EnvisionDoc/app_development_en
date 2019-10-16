@@ -1,65 +1,60 @@
 # Managing Organization Structure
 
-组织结构是一种以节点为管理单元的资产管理层级关系，将企业或组织的人员分配到组织结构后，人员即可使用指定组织内的应用，访问指定资产的信息和数据。OU管理员对组织结构可进行如下管理操作：
+The organization structure is a hierarchical relationship for asset management with nodes as the management unit. After the personnels of an enterprise or organization are assigned to the organization structure, they can use the applications in the specified organizations and access the information and data of specified assets. The OU administrator can perform the following management operations on the organization structure:
 
-- 新建／删除组织结构
-- 开启/关闭组织结构自动分配，开启自动分配后，组织结构内的用户将自动获得下级节点的访问权限
-- 为节点添加下级节点
-- 查看节点下的用户信息
-- 管理叶子节点下的资产，将本组织已接入并打标签的资产，从EnOS同步到Application Portal，同步完成后，可为组织节点分配资产权限
-- 删除/重命名节点
+- Create/delete an organization structure
+- Enable/disable the automatic assignment of organization structure. After the automatic permission assignment is enabled, the users in the organization structure will automatically obtain the access permissions of the subordinate nodes.
+- Add child nodes to a node
+- View the user information under a node
+- Manage the assets under the leaf node, synchronize the assets that are connected and tagged in the organization from EnOS to the Application Portal, and assign asset permissions to organizational nodes after such synchronization is completed.
+- Delete/rename a node
 
-## 前提条件
+## Prerequisites
 
-OU管理员需按照实际业务需求，如以企业的组织架构或地理位置等为层级，规划待创建的组织结构。
+The OU administrator needs to plan the organization structure to be created according to the actual business needs, for example, by using organization structure or geographic location of the enterprise as the hierarchy.
 
+## Create Organization Structure
 
-
-## 创建组织结构
-
-1. 登录Application Portal管理后台，从导航栏中选择 **组织结构**。
+1. Log in to the Application Portal, enter the Admin Console, and select **Organization Structure** from the navigation bar.
 
   .. image:: ../media/ou_structure_1.png
 
-2. 点击 **新建组织结构**，输入组织结构名称，点击 **提交** 即可完成组织结构创建。
+2. Click **New Organization Structure**, enter the name of the organization structure, and click **Submit**.
 
   .. image:: ../media/ou_structure_2.png
 
-3. 开启组织结构的自动分配按钮，组织结构内的用户将自动获得下级节点的访问权限；关闭该按钮后，系统将不再根据用户所在节点自动分配资产访问权限。
+3. After the automatic permission assignment of the organization structure is enabled, users in the organization structure will automatically obtain access permissions of the subordinate nodes. When it is disabled, the system will no longer automatically assign the asset access permissions to users based on the node structure.
 
+## Manage Organization Structure
 
+Click the **Manage** icon for the organization structure to enter the **Manage organization structure** module. You can view the users and assets under the organization structure, add child nodes to the organization structure, assign assets, and rename or delete the organization structure.
 
-## 管理组织结构
+.. image:: ../media/ou_struct_overview.png
 
-点击组织结构的 **管理** 图标，进入 **管理组织结构** 模块。在 **管理组织结构** 中可以查看组织结构下的用户、资产，为组织结构添加下级节点、分配资产、重名命或删除组织结构。
+1. View users and assets: Click on the organization structure to view the list of users and assets that belong to that node on the right side of the page.
 
-  .. image:: ../media/ou_struct_overview.png
-
-1. 查看用户与资产：点击组织结构，即可在页面右侧查看属于该节点的用户列表与资产。
-
-2. 添加下级节点：点击 **添加下级节点**，输入节点名称，即可添加。
+2. Add a child node: Click **Add Child Node** and type the node name.
 
    .. image:: ../media/ou_structure_4.png
 
-3. 管理资产：点击 **管理资产**，即可把已同步但未分配的资产分配给组织节点，也可将已分配的资产退回为未分配状态。只有叶子节点（底层节点）可以被分配和管理资产。
+3. Manage assets: Click **Manage Asset** to assign the assets synchronized but not assigned to an organizational node, or reset an assigned asset as unassigned. Assets can be assigned and manged only for leaf nodes.
 
    .. image:: ../media/ou_structure_6.png
 
-   有关资产同步的详细信息，参考 [管理资产](managing_asset_permission)。
+   For more information about asset synchronization, see [Managing Assets](managing_asset_permission).
 
-4. 重命名：点击 **重命名**，可为组织节点重新命名
+4. Rename: Click **Rename** to rename an organizational node.
 
    .. image:: ../media/ou_structure_9.png
 
-5. 删除组织结构：点击 **删除**，或在 **组织结构** 页面点击 **删除** 图标即可完成对组织结构的删除，删除操作不可撤回。若组织结构已分配用户或资产，则无法被删除。
+5. Delete an organization structure: Click **Delete**, or click the **Delete** icon on the **Organization Structure** page to delete an organization structure. Remember that this operation is irrevocable. Any organization structure for which users or assets have been assigned cannot be deleted.
 
    .. image:: ../media/ou_structure_7.png
 
+## Next Step
 
-## 后续操作
+After an organization structure is created, you need to assign new assets to the organizational nodes through the assets management function under the leaf nodes if any new assets are synchronized to the Application Portal, and the information and data of the new assets are accessible only for the users in the organizational nodes.
 
-完成组织结构创建后，如有新的资产同步到Application Portal，需要通过叶子节点下的管理资产功能，将新资产分配给组织节点，组织节点内的用户才可访问新资产的信息和数据。
-
-为组织新建用户后，需将用户分配到已创建的组织机构中。用户登录Application Portal后，可选择进入为该用户分配的组织。管理用户的详细信息，参考 [管理用户](managing_users)。
+After you create a new user for your organization, you need to assign the user to the created organization structure. After a user logs in to the Application Portal, you can choose to assign an organization structure to the user. For details about how to manage users, see [Managing Users](managing_users).
 
 <!-- end -->

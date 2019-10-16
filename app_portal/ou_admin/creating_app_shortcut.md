@@ -1,51 +1,51 @@
 # Creating Application Shortcuts
 
-Application Portal支持创建应用快捷方式，将不同应用的模块或菜单整合在一起，组成新的应用，满足不同业务场景的需求。
+Application Portal supports the creation of application shortcuts, which can integrate the modules or menus of different applications to form a new application to meet the needs of different business scenarios.
 
-## 前提条件
+## Prerequisites
 
-组织内已有或已购买应用供创建快捷方式，且组织已获取从多个应用配置菜单的权限。
+The enterprise or organization has registered or purchased applications for creating shortcuts, and the organization has obtained the permissions to configure menus from multiple applications.
 
-## 新建应用快捷方式
+## Create an Application Shortcut
 
-OU管理员可通过以下步骤，新增一个应用的快捷方式：
+The OU administrator can create a shortcut of an application by taking the following steps:
 
-1. 登录Application Portal管理后台，从导航栏中选择 **应用管理**。
+1. Log in to the Application Portal admin console and select **Application Management** from the navigation bar.
 
-2. 在应用列表中，找到需要创建快捷方式的应用，将光标移动到 **更多** 图标上，选择 **创建快捷方式**。
+2. In the list of applications, find out the application for which a shortcut needs to be created, move the cursor over the **More** icon, and select **New Shortcut**.
 
    .. image:: ../media/create_shortcut.png
 
-3. 在 **快捷方式详情** 页面，点击 **编辑**，编辑应用快速方式的名称、分类、和描述。
+3. On the **Shortcut Details** page, click **Edit** to edit the name, category, and description of the application shortcut.
 
    .. image:: ../media/update_shortcut.png
 
-4. 返回应用列表页面，在 **应用名称** 一栏中，可查看创建的应用快捷方式。应用快捷方式的名称旁，显示 **快捷方式** 图标，区别于主体应用。
+4. Go back to the application list page, and in the **Application Name** column, you can view the application shortcut you created. A **Shortcut** icon is displayed next to the name of the application shortcut, which is different from the main application.
 
    .. image:: ../media/created_shortcut.png
 
-## 组合应用菜单
+## Combine Application Menus
 
-应用快捷方式创建完成后，应用快捷方式将默认继承主体应用的所有有效菜单和菜单结构。可通过增减菜单，为应用快捷方式组合新的菜单。
+Once an application shortcut is created, the application shortcut will inherit all valid menus and menu structure of the main application by default. You can combine new menus for the application shortcut by adding or subtracting menus.
 
-1. 在应用列表中，找到创建的应用快捷方式，将光标移动到 **更多** 图标上，选择 **管理**。
+1. In the list of applications, find out the application shortcut just created, move the cursor over the **More** icon, and select **Manage Shortcut**.
 
-2. 在 **快捷方式详情** 页面 **已添加菜单** 一栏中，移动光标，可查看菜单继承于哪个主体应用；点击 **删除** 图标，可移除菜单。
+2. Go to the **Shortcut Details** page, and in the **Added Menus** column, move the cursor to view the main application from which the menu inherits. You can click the **Delete** icon to remove any menu.
 
    .. image:: ../media/delete_menu.png
 
-3. （可选）从 **添加菜单** 下拉菜单中，选择 **新建一级菜单**，即可为应用快捷方式新建一条一级菜单。
+3. (Optional) From the **Add Menu** drop-down menu, select **New First-class Menus** to create a new level 1 menu for the application shortcut.
 
-4. （可选）从 **添加菜单** 下拉菜单中，选择 **从其他应用获取菜单**，即可从组织有权限的其他应用获取更多菜单。将多个应用的菜单，组合到创建的应用快捷方式中。
+4. (Optional) From the **Add Menu** drop-down menu, select **Add from Other Applications** to get more menus from other applications to which your organization has permissions. Then combine the menus from multiple applications into the created application shortcut.
 
-   .. image:: ../media/menu_from_another_app.png
+   .. image:: ../media/menu\_from\_another_app.png
 
-## 管理应用快捷方式
+## Manage Application Shortcuts
 
-对创建的应用快捷方式的管理操作与对主体应用的管理基本相同，包括启用、停用、分配组织结构、和管理菜单组。
+The management operations for the created application shortcuts are basically the same as for the main applications, including enabling, disabling, assigning organization structures, and managing menu groups.
 
-如果应用快捷方式里的原子菜单被取消授权，则该菜单会被自动删除；如果主体应用被取消授权，应用快捷方式将会自动删除。
+If the atomic menu in the application shortcut is de-authorized, the menu will be automatically deleted; if the main application is de-authorized, the application shortcut will be automatically deleted.
 
-如需删除应用快捷方式，将光标移动到 **更多** 图标上，选择 **删除** 即可。
+To delete an application shortcut, move the cursor over the **More** icon and select **Delete Shortcut**.
 
 <!-- end -->

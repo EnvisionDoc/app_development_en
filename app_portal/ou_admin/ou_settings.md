@@ -1,24 +1,21 @@
 # OU Settings
 
-OU设置提供了查看组织基本信息、更换管理员、更换Logo的功能。
+OU Settings provide the capabilities to view the basic organization information, change the OU administer, and change the logo of the OU.
 
-  .. image:: ../media/ou_1.png
+.. image:: ../media/ou_1.png
 
+## Change the OU Administrator
 
+1. Log in to the Application Portal admin console and select **OU Configuration** from the navigation bar.
 
-## 更换管理员
-
-1. 登录Application Portal管理后台，从导航栏中选择 **OU设置**。
-
-2. 点击 **更换管理员**，通过用户账号或邮箱将管理员身份转移给企业/组织内已存在的用户，提交后当前管理员即不再担任管理员。
+2. Click **Change Administrator** to transfer the administrator role to an existing user in the enterprise or organization through the user account or user email address. After the transfer, the current OU administrator will no longer serve as an administrator.
 
   .. image:: ../media/ou_2.png
 
-## 更换Logo
+## Change the OU Logo
 
-1. 登录Application Portal管理后台，从导航栏中选择 **OU设置**。
+1. Log in to the Application Portal admin console and select **OU Configuration** from the navigation bar.
 
-2. 点击 **重新上传**选择上传新的Logo图片。
-
+2. In the **Customization** section, click **Upload Image** to upload a new logo image for the enterprise or organization.
 
 <!-- end -->

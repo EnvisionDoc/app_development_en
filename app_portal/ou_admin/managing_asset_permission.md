@@ -1,45 +1,33 @@
-# Managing Asset Permission
+# Managing Assets
 
-Application Portal支持与EnOS同步数据资产信息，并可为已创建的用户与用户组分配资产访问权限。
+Application Portal supports for synchronizing the data asset information with EnOS and assigning asset access permissions to created users and user groups. After that, users can view asset information and data through applications.
 
-1 . 功能说明
+Asset permission management includes:
+- Asset Synchronization: Synchronizing and updating the asset data to Application Portal
+- Assigning asset access permissions to users or user groups
 
-- 资产同步：将资产数据同步更新到系统上
-- 给用户／用户组，手工分配资产访问权限
+## Asset Synchronization
 
-2 . 名词解释
+Asset synchronization refers to the synchronization of assets that have been connected to EnOS and identified with the tag `auth_unit:true`, from EnOS to the Application Portal. The asset access permission can be assigned to users only after the synchronization is completed.
 
-- 资产权限：用户可通过应用看到相关资产数据
+1. Log in to the Application Portal admin console and select **Asset Synchronization** from the navigation bar.
 
-3 . 操作步骤
-
-
-## 资产同步
-
-资产同步是将本组织已接入EnOS并被标签标记的资产从开发者平台同步到Application Portal。同步完成后，资产才可被分配给用户。
-
-1. 登录Application Portal管理后台，从导航栏中选择 **资产同步**。
-
-2. 点击 **同步资产**，即可将EnOS上的资产数据同步到Application Portal。
+2. Click **Synchronize Asset** to start synchronizing new and updated asset data from EnOS to the Application Portal.
 
   .. image:: ../media/asset_1.png
 
+## Assign Asset Permission
 
+Assign manageable assets to users or user groups. Once such assignment is completed, users can see related asset information and data through applications.
 
-## 资产权限分配 <asset_assign>
+1. Log in to the Application Portal admin console and select **Asset Permission** from the navigation bar.
 
-为用户或者用户组分配可以管理的资产。设置完成后，用户即可通过应用看到相关资产数据。
-
-1. 登录Application Portal管理后台，从导航栏中选择 **资产权限分配**。
-
-2. 选择用户或用户组可以查看该用户/用户组已被分配的资产。点击 **管理资产**，可将资产批量分配给选定的用户/用户组。
+2. Select a user or user group to view the assets that have been assigned to the user or user group. Click **Manage Asset** to add or remove assets to be assigned to the user or user group.
 
   .. image:: ../media/asset_3.png
 
-3. 点击已分配资产后的 **移除** 图标即可将该资产从用户/用户组移除。
+3. The assets assigned can be removed from the user or user group by clicking the **Delete** icon.
 
   .. image:: ../media/asset_2.png
-
-
 
 <!-- end -->
